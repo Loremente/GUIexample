@@ -21,7 +21,7 @@ public class MenuCommand implements CommandExecutor {
         if (sender instanceof Player) {
             Player player = (Player) sender;
 
-            Inventory inv = Bukkit.createInventory(player, 45, ChatColor.RED.toString() + ChatColor.BOLD + "Tool menu!");
+            Inventory inv = Bukkit.createInventory(player, 45, ChatColor.RED.toString() + ChatColor.BOLD + "GUI");
 
             ItemStack teleport = new ItemStack(Material.ENDER_PEARL);
             ItemMeta teleportMeta = teleport.getItemMeta();
