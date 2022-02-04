@@ -6,6 +6,6 @@ public final class GUI extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        getCommand("menu").setExecutor(new MenuCommand());
+        getCommand("gui").setExecutor(new MenuCommand());
     }
 }
