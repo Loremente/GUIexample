@@ -1,0 +1,4 @@
+name: GUI
+version: '${project.version}'
+main: me.loremente.gui.GUI
+api-version: 1.18
